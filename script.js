@@ -1539,38 +1539,80 @@ class RestaurantApp {
                 });
             });
 
-			           // Hero Download button - PWA Install
+			           // PWA Install - beforeinstallprompt Event Listener
+			let deferredPrompt;
+			
+			window.addEventListener('beforeinstallprompt', (e) => {
+			    // Varsayılan tarayıcı prompt'unu engelle
+			    e.preventDefault();
+			    // Event'i sakla, daha sonra kullanmak için
+			    deferredPrompt = e;
+			    console.log('beforeinstallprompt event captured');
+			    
+			    // Hero butonu göster (eğer gizliyse)
+			    const heroInstallBtn = document.getElementById('heroInstallBtn');
+			    if (heroInstallBtn) {
+			        heroInstallBtn.style.display = 'flex';
+			    }
+			});
+			
+			// PWA Install - Hero Download Button
 			const heroInstallBtn = document.getElementById('heroInstallBtn');
 			
 			if (heroInstallBtn) {
+			    // İlk yüklemede butonu gizle (prompt yoksa)
+			    if (!deferredPrompt) {
+			        heroInstallBtn.style.display = 'none';
+			    }
+			    
 			    heroInstallBtn.addEventListener('click', async (e) => {
 			        e.preventDefault();
+			        e.stopPropagation();
 			        
-			        if (window.restaurantApp && window.restaurantApp.deferredPrompt) {
-			            // PWA install prompt'u göster
-			            window.restaurantApp.deferredPrompt.prompt();
-			            
-			            // Kullanıcı seçimini bekle
-			            const choiceResult = await window.restaurantApp.deferredPrompt.userChoice;
-			            
-			            if (choiceResult.outcome === 'accepted') {
-			                console.log('User accepted the PWA install prompt');
-			            } else {
-			                console.log('User dismissed the PWA install prompt');
+			        console.log('Hero install button clicked');
+			        console.log('deferredPrompt:', deferredPrompt);
+			        
+			        if (deferredPrompt) {
+			            try {
+			                // PWA install prompt'u göster
+			                deferredPrompt.prompt();
+			                
+			                // Kullanıcı seçimini bekle
+			                const choiceResult = await deferredPrompt.userChoice;
+			                
+			                console.log('User choice:', choiceResult.outcome);
+			                
+			                if (choiceResult.outcome === 'accepted') {
+			                    console.log('User accepted the PWA install prompt');
+			                } else {
+			                    console.log('User dismissed the PWA install prompt');
+			                }
+			                
+			                // Prompt'u temizle
+			                deferredPrompt = null;
+			                
+			                // Butonu gizle
+			                heroInstallBtn.style.display = 'none';
+			            } catch (error) {
+			                console.error('Error during PWA install:', error);
 			            }
-			            
-			            // Prompt'u temizle (sadece bir kere kullanılabilir)
-			            window.restaurantApp.deferredPrompt = null;
-			            
-			            // Butonu gizle veya disable et
-			            heroInstallBtn.style.display = 'none';
 			        } else {
-			            console.log('PWA install not available. The app may already be installed or the browser does not support installation.');
-			            // İsteğe bağlı: Kullanıcıya bilgi mesajı göster
-			            alert('PWA kurulumu şu anda mevcut değil. Uygulama zaten kurulu olabilir veya tarayıcınız bu özelliği desteklemiyor olabilir.');
+			            console.log('PWA install not available - deferredPrompt is null');
+			            // Alternatif: Eğer app zaten kuruluysa veya desteklenmiyorsa
+			            heroInstallBtn.style.display = 'none';
 			        }
 			    });
 			}
+			
+			// Eğer app zaten kuruluysa butonu gizle
+			window.addEventListener('appinstalled', () => {
+			    console.log('PWA was installed');
+			    const heroInstallBtn = document.getElementById('heroInstallBtn');
+			    if (heroInstallBtn) {
+			        heroInstallBtn.style.display = 'none';
+			    }
+			    deferredPrompt = null;
+			});
 
             // Logo click - Scroll to top
             const logo = document.querySelector('.logo');
