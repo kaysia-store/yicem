@@ -1539,21 +1539,30 @@ class RestaurantApp {
                 });
             });
 
-            // Hero Download button - PWA Install
-            const heroInstallBtn = document.getElementById('heroInstallBtn');
-            if (heroInstallBtn) {
-                heroInstallBtn.addEventListener('click', () => {
-                    if (this.deferredPrompt) {
-                        this.deferredPrompt.prompt();
-                        this.deferredPrompt.userChoice.then((choiceResult) => {
-                            if (choiceResult.outcome === 'accepted') {
-                                console.log('User accepted the install prompt');
-                            }
-                            this.deferredPrompt = null;
-                        });
-                    }
-                });
-            }
+			            // Hero Download button - PWA Install
+			const heroInstallBtn = document.getElementById('heroInstallBtn');
+			
+			if (heroInstallBtn) {
+			    heroInstallBtn.addEventListener('click', () => {
+			        if (this.deferredPrompt) {
+			            this.deferredPrompt.prompt();
+			            this.deferredPrompt.userChoice.then((choiceResult) => {
+			                if (choiceResult.outcome === 'accepted') {
+			                    console.log('User accepted the install prompt');
+			                } else {
+			                    console.log('User dismissed the install prompt');
+			                }
+			                this.deferredPrompt = null;
+			                heroInstallBtn.style.display = 'none';
+			            }).catch((err) => {
+			                console.error('Error during PWA install:', err);
+			            });
+			        } else {
+			            console.log('PWA install not available');
+			            heroInstallBtn.style.display = 'none';
+			        }
+			    });
+			}
 
             // Logo click - Scroll to top
             const logo = document.querySelector('.logo');
