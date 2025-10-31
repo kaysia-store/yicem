@@ -1539,27 +1539,35 @@ class RestaurantApp {
                 });
             });
 
-			            // Hero Download button - PWA Install
+			           // Hero Download button - PWA Install
 			const heroInstallBtn = document.getElementById('heroInstallBtn');
 			
 			if (heroInstallBtn) {
-			    heroInstallBtn.addEventListener('click', () => {
-			        if (this.deferredPrompt) {
-			            this.deferredPrompt.prompt();
-			            this.deferredPrompt.userChoice.then((choiceResult) => {
-			                if (choiceResult.outcome === 'accepted') {
-			                    console.log('User accepted the install prompt');
-			                } else {
-			                    console.log('User dismissed the install prompt');
-			                }
-			                this.deferredPrompt = null;
-			                heroInstallBtn.style.display = 'none';
-			            }).catch((err) => {
-			                console.error('Error during PWA install:', err);
-			            });
-			        } else {
-			            console.log('PWA install not available');
+			    heroInstallBtn.addEventListener('click', async (e) => {
+			        e.preventDefault();
+			        
+			        if (window.restaurantApp && window.restaurantApp.deferredPrompt) {
+			            // PWA install prompt'u göster
+			            window.restaurantApp.deferredPrompt.prompt();
+			            
+			            // Kullanıcı seçimini bekle
+			            const choiceResult = await window.restaurantApp.deferredPrompt.userChoice;
+			            
+			            if (choiceResult.outcome === 'accepted') {
+			                console.log('User accepted the PWA install prompt');
+			            } else {
+			                console.log('User dismissed the PWA install prompt');
+			            }
+			            
+			            // Prompt'u temizle (sadece bir kere kullanılabilir)
+			            window.restaurantApp.deferredPrompt = null;
+			            
+			            // Butonu gizle veya disable et
 			            heroInstallBtn.style.display = 'none';
+			        } else {
+			            console.log('PWA install not available. The app may already be installed or the browser does not support installation.');
+			            // İsteğe bağlı: Kullanıcıya bilgi mesajı göster
+			            alert('PWA kurulumu şu anda mevcut değil. Uygulama zaten kurulu olabilir veya tarayıcınız bu özelliği desteklemiyor olabilir.');
 			        }
 			    });
 			}
