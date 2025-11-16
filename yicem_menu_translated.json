@@ -2806,6 +2806,84 @@
                 "price": 80
               }
             ]
+          },
+          {
+            "id": "t14",
+            "name": {
+              "tr": "Yicem Kaşar veya Beyaz Peynir",
+              "en": "Yicem Cheddar or White Cheese",
+              "de": "Yicem Cheddar oder Weißkäse",
+              "ru": "Йицем Чеддер или Белый Сыр",
+              "fr": "Yicem Cheddar ou Fromage Blanc",
+              "ar": "يجم شيدر أو جبن أبيض"
+            },
+            "price": 100,
+            "description": {
+              "tr": "Kaşar veya Beyaz Peynir, Turşu, Domates",
+              "en": "Cheddar or White Cheese, Pickles, Tomatoes",
+              "de": "Cheddar oder Weißkäse, Essiggurken, Tomaten",
+              "ru": "Чеддер или Белый Сыр, Маринованные огурцы, Помидоры",
+              "fr": "Cheddar ou Fromage Blanc, Cornichons, Tomates",
+              "ar": "شيدر أو جبن أبيض، مخلل، طماطم"
+            },
+            "contents": {
+              "tr": [
+                "Kaşar veya Beyaz Peynir",
+                "Turşu",
+                "Domates"
+              ],
+              "en": [
+                "Cheddar or White Cheese",
+                "Pickles",
+                "Tomatoes"
+              ],
+              "de": [
+                "Cheddar oder Weißkäse",
+                "Essiggurken",
+                "Tomaten"
+              ],
+              "ru": [
+                "Чеддер или Белый Сыр",
+                "Маринованные огурцы",
+                "Помидоры"
+              ],
+              "fr": [
+                "Cheddar ou Fromage Blanc",
+                "Cornichons",
+                "Tomates"
+              ],
+              "ar": [
+                "شيدر أو جبن أبيض",
+                "مخلل",
+                "طماطم"
+              ]
+            },
+            "options": [
+              {
+                "id": "t14_o1",
+                "label": {
+                  "tr": "Sade Tost",
+                  "en": "Plain Toast",
+                  "de": "Einfacher Toast",
+                  "ru": "Обычный тост",
+                  "fr": "Toast Simple",
+                  "ar": "خبز محمص عادي"
+                },
+                "price": 0
+              },
+              {
+                "id": "t14_o2",
+                "label": {
+                  "tr": "Menü (Cips + İçecek)",
+                  "en": "Menu (Chips + Drink)",
+                  "de": "Menü (Chips + Getränk)",
+                  "ru": "Меню (Чипсы + Напиток)",
+                  "fr": "Menu (Chips + Boisson)",
+                  "ar": "قائمة (رقائق + مشروب)"
+                },
+                "price": 80
+              }
+            ]
           }
         ]
       },
@@ -2872,8 +2950,7 @@
                     "ru": "Тунец",
                     "fr": "Thon",
                     "ar": "تونة"
-                  },
-                  "price": 20
+                  }
                 },
                 {
                   "id": "main2",
@@ -2884,8 +2961,7 @@
                     "ru": "Белый сыр",
                     "fr": "Fromage Blanc",
                     "ar": "جبن أبيض"
-                  },
-                  "price": 20
+                  }
                 },
                 {
                   "id": "main3",
@@ -2896,8 +2972,7 @@
                     "ru": "Ezine Cheese",
                     "fr": "Ezine Cheese",
                     "ar": "Ezine Cheese"
-                  },
-                  "price": 20
+                  }
                 },
                 {
                   "id": "main4",
@@ -2908,8 +2983,7 @@
                     "ru": "Салами",
                     "fr": "Salami",
                     "ar": "سلامي"
-                  },
-                  "price": 20
+                  }
                 },
                 {
                   "id": "main5",
@@ -2920,8 +2994,7 @@
                     "ru": "Ветчина",
                     "fr": "Jambon",
                     "ar": "لحم خنزير"
-                  },
-                  "price": 20
+                  }
                 }
               ],
               "sideProducts": [
@@ -2934,8 +3007,7 @@
                     "ru": "Black Olives",
                     "fr": "Black Olives",
                     "ar": "Black Olives"
-                  },
-                  "price": 10
+                  }
                 },
                 {
                   "id": "side2",
@@ -2946,8 +3018,7 @@
                     "ru": "Кукуруза",
                     "fr": "Maïs",
                     "ar": "ذرة"
-                  },
-                  "price": 10
+                  }
                 },
                 {
                   "id": "side3",
@@ -2958,8 +3029,7 @@
                     "ru": "Помидоры",
                     "fr": "Tomates",
                     "ar": "طماطم"
-                  },
-                  "price": 10
+                  }
                 },
                 {
                   "id": "side4",
@@ -2970,8 +3040,7 @@
                     "ru": "Маринованные огурцы",
                     "fr": "Cornichons",
                     "ar": "مخلل"
-                  },
-                  "price": 10
+                  }
                 },
                 {
                   "id": "side5",
@@ -2982,8 +3051,7 @@
                     "ru": "Перец халапеньо",
                     "fr": "Poivron Jalapeño",
                     "ar": "فلفل هالبينو"
-                  },
-                  "price": 10
+                  }
                 },
                 {
                   "id": "side6",
@@ -2994,8 +3062,7 @@
                     "ru": "Green Pepper",
                     "fr": "Green Pepper",
                     "ar": "Green Pepper"
-                  },
-                  "price": 10
+                  }
                 },
                 {
                   "id": "side7",
@@ -3006,8 +3073,7 @@
                     "ru": "Русский салат",
                     "fr": "Salade Russe",
                     "ar": "سلطة روسية"
-                  },
-                  "price": 10
+                  }
                 }
               ]
             }
@@ -3274,7 +3340,6 @@
               "tr": [
                 "Tavuk Döner (100gr)",
                 "Yoğurt",
-                "Tereyağı",
                 "Domates Sosu",
                 "Marul",
                 "Domates",
@@ -3283,7 +3348,6 @@
               "en": [
                 "Chicken Doner (100gr)",
                 "Yogurt",
-                "Butter",
                 "Tomato Sauce",
                 "Lettuce",
                 "Tomatoes",
@@ -3292,7 +3356,6 @@
               "de": [
                 "Chicken Doner  (100g)",
                 "Yogurt",
-                "Butter",
                 "Tomato Sauce",
                 "Lettuce",
                 "Tomaten",
@@ -3301,7 +3364,6 @@
               "ru": [
                 "Chicken Doner  (100gr)",
                 "Yogurt",
-                "Butter",
                 "Tomato Sauce",
                 "Lettuce",
                 "Помидоры",
@@ -3310,7 +3372,6 @@
               "fr": [
                 "Chicken Doner  (100g)",
                 "Yogurt",
-                "Butter",
                 "Tomato Sauce",
                 "Lettuce",
                 "Tomates",
@@ -3319,7 +3380,6 @@
               "ar": [
                 "Chicken Doner  (100غr)",
                 "Yogurt",
-                "Butter",
                 "Tomato Sauce",
                 "Lettuce",
                 "طماطم",
@@ -3471,48 +3531,36 @@
             "contents": {
               "tr": [
                 "Tavuk Döner (100gr)",
-                "Pilav",
-                "Salata",
                 "Marul",
                 "Domates",
                 "Turşu"
               ],
               "en": [
                 "Chicken Doner (100gr)",
-                "Rice",
-                "Salad",
                 "Lettuce",
                 "Tomatoes",
                 "Pickles"
               ],
               "de": [
                 "Chicken Doner  (100g)",
-                "Rice",
-                "Salad",
                 "Lettuce",
                 "Tomaten",
                 "Essiggurken"
               ],
               "ru": [
                 "Chicken Doner  (100gr)",
-                "Rice",
-                "Salad",
                 "Lettuce",
                 "Помидоры",
                 "Маринованные огурцы"
               ],
               "fr": [
                 "Chicken Doner  (100g)",
-                "Rice",
-                "Salad",
                 "Lettuce",
                 "Tomates",
                 "Cornichons"
               ],
               "ar": [
                 "Chicken Doner  (100غr)",
-                "Rice",
-                "Salad",
                 "Lettuce",
                 "طماطم",
                 "مخلل"
@@ -3568,8 +3616,6 @@
               "tr": [
                 "Tavuk Döner (100gr)",
                 "Pilav",
-                "Salata",
-                "Sos",
                 "Marul",
                 "Domates",
                 "Turşu"
@@ -3577,8 +3623,6 @@
               "en": [
                 "Chicken Doner (100gr)",
                 "Rice",
-                "Salad",
-                "Sauce",
                 "Lettuce",
                 "Tomatoes",
                 "Pickles"
@@ -3586,8 +3630,6 @@
               "de": [
                 "Chicken Doner  (100g)",
                 "Rice",
-                "Salad",
-                "Sauce",
                 "Lettuce",
                 "Tomaten",
                 "Essiggurken"
@@ -3595,8 +3637,6 @@
               "ru": [
                 "Chicken Doner  (100gr)",
                 "Rice",
-                "Salad",
-                "Sauce",
                 "Lettuce",
                 "Помидоры",
                 "Маринованные огурцы"
@@ -3604,8 +3644,6 @@
               "fr": [
                 "Chicken Doner  (100g)",
                 "Rice",
-                "Salad",
-                "Sauce",
                 "Lettuce",
                 "Tomates",
                 "Cornichons"
@@ -3613,8 +3651,6 @@
               "ar": [
                 "Chicken Doner  (100غr)",
                 "Rice",
-                "Salad",
-                "Sauce",
                 "Lettuce",
                 "طماطم",
                 "مخلل"
@@ -4108,48 +4144,36 @@
             "contents": {
               "tr": [
                 "Et Döner (100gr)",
-                "Pilav",
-                "Salata",
                 "Marul",
                 "Domates",
                 "Turşu"
               ],
               "en": [
                 "Beef Doner (100gr)",
-                "Rice",
-                "Salad",
                 "Lettuce",
                 "Tomatoes",
                 "Pickles"
               ],
               "de": [
                 "Rindfleisch-Döner (100g)",
-                "Reis",
-                "Salat",
                 "Lettuce",
                 "Tomaten",
                 "Essiggurken"
               ],
               "ru": [
                 "Донер из говядины (100гр)",
-                "Рис",
-                "Салат",
                 "Lettuce",
                 "Помидоры",
                 "Маринованные огурцы"
               ],
               "fr": [
                 "Döner Bœuf (100g)",
-                "Riz",
-                "Salade",
                 "Laitue",
                 "Tomates",
                 "Cornichons"
               ],
               "ar": [
                 "دونر لحم (100غ)",
-                "أرز",
-                "سلطة",
                 "Lettuce",
                 "طماطم",
                 "مخلل"
@@ -4213,12 +4237,12 @@
           {
             "id": "bd4",
             "name": {
-              "tr": "Soslu Et Döner",
-              "en": "Sauced Beef Doner",
-              "de": "Gewürzter Rindfleisch-Döner",
-              "ru": "Донер из говядины с соусом",
-              "fr": "Döner Bœuf Sauced",
-              "ar": "دونر لحم بالصلصة"
+              "tr": "Soslu Et Döner Porsiyon",
+              "en": "Sauced Beef Doner Portion",
+              "de": "Gewürzter Rindfleisch-Döner Portion",
+              "ru": "Порция донер из говядины с соусом",
+              "fr": "Portion de Döner Bœuf Sauced",
+              "ar": "وجبة دونر لحم بالصلصة"
             },
             "price": 310,
             "description": {
@@ -4365,136 +4389,6 @@
             }
           },
           {
-            "id": "bd5",
-            "name": {
-              "tr": "Et İskender",
-              "en": "Beef İskender",
-              "de": "Rindfleisch İskender",
-              "ru": "İскender говядины",
-              "fr": "İskender de Bœuf",
-              "ar": "إسكندر لحم"
-            },
-            "price": 350,
-            "description": {
-              "tr": "",
-              "en": "",
-              "de": "",
-              "ru": "",
-              "fr": "",
-              "ar": ""
-            },
-            "contents": {
-              "tr": [
-                "Et Döner (100gr)",
-                "Yoğurt",
-                "Tereyağı",
-                "Domates Sosu",
-                "Marul",
-                "Domates",
-                "Turşu"
-              ],
-              "en": [
-                "Beef Doner (100gr)",
-                "Yogurt",
-                "Butter",
-                "Tomato Sauce",
-                "Lettuce",
-                "Tomatoes",
-                "Pickles"
-              ],
-              "de": [
-                "Rindfleisch-Döner (100g)",
-                "Joghurt",
-                "Butter",
-                "Tomatensauce",
-                "Lettuce",
-                "Tomaten",
-                "Essiggurken"
-              ],
-              "ru": [
-                "Донер из говядины (100гр)",
-                "Йогурт",
-                "Масло",
-                "Томатный соус",
-                "Lettuce",
-                "Помидоры",
-                "Маринованные огурцы"
-              ],
-              "fr": [
-                "Döner Bœuf (100g)",
-                "Yaourt",
-                "Beurre",
-                "Sauce Tomate",
-                "Laitue",
-                "Tomates",
-                "Cornichons"
-              ],
-              "ar": [
-                "دونر لحم (100غ)",
-                "زبادي",
-                "زبدة",
-                "صلصة طماطم",
-                "Lettuce",
-                "طماطم",
-                "مخلل"
-              ]
-            },
-            "options": [
-              {
-                "id": "bd5_o1",
-                "label": {
-                  "tr": "Tek",
-                  "en": "Single",
-                  "de": "Einzeln",
-                  "ru": "Одиночный",
-                  "fr": "Seul",
-                  "ar": "فرادى"
-                },
-                "price": 0
-              },
-              {
-                "id": "bd5_o2",
-                "label": {
-                  "tr": "Menü (Cips + Ayran)",
-                  "en": "Menu (Chips + Ayran)",
-                  "de": "Menü (Chips + Ayran)",
-                  "ru": "Меню (Картофель фри + Айран)",
-                  "fr": "Menu (Chips + Ayran)",
-                  "ar": "قائمة (شيبس + عيران)"
-                },
-                "price": 60
-              },
-              {
-                "id": "bd5_o3",
-                "label": {
-                  "tr": "Menü (Cips + Kola)",
-                  "en": "Menu (Chips + Cola)",
-                  "de": "Menü (Chips + Cola)",
-                  "ru": "Меню (Картофель фри + Кола)",
-                  "fr": "Menu (Chips + Cola)",
-                  "ar": "قائمة (شيبس + كولا)"
-                },
-                "price": 80
-              }
-            ],
-            "extras": {
-              "potatoOptions": [
-                {
-                  "id": "bd5_patates1",
-                  "name": {
-                    "tr": "Patates (+10₺)",
-                    "en": "Potatoes (+10₺)",
-                    "de": "Kartoffeln (+10₺)",
-                    "ru": "Картофель (+10₺)",
-                    "fr": "Pommes de terre (+10₺)",
-                    "ar": "بطاطس (+10₺)"
-                  },
-                  "price": 10
-                }
-              ]
-            }
-          },
-          {
             "id": "bd6",
             "name": {
               "tr": "Pilavüstü Et Döner",
@@ -4517,8 +4411,6 @@
               "tr": [
                 "Et Döner (100gr)",
                 "Pilav",
-                "Salata",
-                "Sos",
                 "Marul",
                 "Domates",
                 "Turşu"
@@ -4526,8 +4418,6 @@
               "en": [
                 "Beef Doner (100gr)",
                 "Rice",
-                "Salad",
-                "Sauce",
                 "Lettuce",
                 "Tomatoes",
                 "Pickles"
@@ -4535,8 +4425,6 @@
               "de": [
                 "Rindfleisch-Döner (100g)",
                 "Reis",
-                "Salat",
-                "Sauce",
                 "Lettuce",
                 "Tomaten",
                 "Essiggurken"
@@ -4544,8 +4432,6 @@
               "ru": [
                 "Донер из говядины (100гр)",
                 "Рис",
-                "Салат",
-                "Соус",
                 "Lettuce",
                 "Помидоры",
                 "Маринованные огурцы"
@@ -4553,8 +4439,6 @@
               "fr": [
                 "Döner Bœuf (100g)",
                 "Riz",
-                "Salade",
-                "Sauce",
                 "Laitue",
                 "Tomates",
                 "Cornichons"
@@ -4562,8 +4446,6 @@
               "ar": [
                 "دونر لحم (100غ)",
                 "أرز",
-                "سلطة",
-                "صلصة",
                 "Lettuce",
                 "طماطم",
                 "مخلل"
@@ -4894,42 +4776,36 @@
             "contents": {
               "tr": [
                 "Et Döner (70gr)",
-                "Ayvalık Sosu",
                 "Marul",
                 "Domates",
                 "Turşu"
               ],
               "en": [
                 "Beef Doner (70gr)",
-                "Ayvalık Sauce",
                 "Lettuce",
                 "Tomatoes",
                 "Pickles"
               ],
               "de": [
                 "Rindfleisch-Döner (70g)",
-                "Ayvalık-Sauce",
                 "Lettuce",
                 "Tomaten",
                 "Essiggurken"
               ],
               "ru": [
                 "Донер из говядины (70гр)",
-                "Соус Айвалык",
                 "Lettuce",
                 "Помидоры",
                 "Маринованные огурцы"
               ],
               "fr": [
                 "Döner Bœuf (70g)",
-                "Sauce Ayvalık",
                 "Laitue",
                 "Tomates",
                 "Cornichons"
               ],
               "ar": [
                 "دونر لحم (70غ)",
-                "صلصة أيفاليك",
                 "Lettuce",
                 "طماطم",
                 "مخلل"
@@ -5038,18 +4914,17 @@
             },
             "price": 230,
             "description": {
-              "tr": "Et Döner (70gr), Kaşar, Ayvalık Sosu, Marul, Domates, Turşu",
-              "en": "Beef Doner (70gr), Cheddar, Ayvalık Sauce, Lettuce, Tomatoes, Pickles",
-              "de": "Rindfleisch-Döner (70g), Cheddar, Ayvalık-Sauce, Salat, Tomaten, Essiggurken",
-              "ru": "Донер из говядины (70гр), Чеддер, Соус Айвалык, Салат, Помидоры, Маринованные огурцы",
-              "fr": "Döner Bœuf (70g), Cheddar, Sauce Ayvalık, Laitue, Tomates, Cornichons",
-              "ar": "دونر لحم (70غ), شيدر, صلصة أيفاليك, خس, طماطم, مخلل"
+              "tr": "Et Döner (70gr), Kaşar, Marul, Domates, Turşu",
+              "en": "Beef Doner (70gr), Cheddar, Lettuce, Tomatoes, Pickles",
+              "de": "Rindfleisch-Döner (70g), Cheddar, Salat, Tomaten, Essiggurken",
+              "ru": "Донер из говядины (70гр), Чеддер, Салат, Помидоры, Маринованные огурцы",
+              "fr": "Döner Bœuf (70g), Cheddar, Laitue, Tomates, Cornichons",
+              "ar": "دونر لحم (70غ), شيدر, خس, طماطم, مخلل"
             },
             "contents": {
               "tr": [
                 "Et Döner (70gr)",
                 "Kaşar",
-                "Ayvalık Sosu",
                 "Marul",
                 "Domates",
                 "Turşu"
@@ -5057,7 +4932,6 @@
               "en": [
                 "Beef Doner (70gr)",
                 "Cheddar",
-                "Ayvalık Sauce",
                 "Lettuce",
                 "Tomatoes",
                 "Pickles"
@@ -5065,7 +4939,6 @@
               "de": [
                 "Rindfleisch-Döner (70g)",
                 "Cheddar",
-                "Ayvalık-Sauce",
                 "Lettuce",
                 "Tomaten",
                 "Essiggurken"
@@ -5073,7 +4946,6 @@
               "ru": [
                 "Донер из говядины (70гр)",
                 "Чеддер",
-                "Соус Айвалык",
                 "Lettuce",
                 "Помидоры",
                 "Маринованные огурцы"
@@ -5081,7 +4953,6 @@
               "fr": [
                 "Döner Bœuf (70g)",
                 "Cheddar",
-                "Sauce Ayvalık",
                 "Laitue",
                 "Tomates",
                 "Cornichons"
@@ -5089,7 +4960,6 @@
               "ar": [
                 "دونر لحم (70غ)",
                 "شيدر",
-                "صلصة أيفاليك",
                 "Lettuce",
                 "طماطم",
                 "مخلل"
@@ -5641,42 +5511,36 @@
                 "Domates",
                 "Sarımsak",
                 "Taze Fesleğen",
-                "Havuç",
                 "Baharat"
               ],
               "en": [
                 "Tomatoes",
                 "Garlic",
                 "Fresh Basil",
-                "Carrot",
                 "Spices"
               ],
               "de": [
                 "Tomaten",
                 "Garlic",
                 "Fresh Basil",
-                "Carrot",
                 "Spices"
               ],
               "ru": [
                 "Помидоры",
                 "Garlic",
                 "Fresh Basil",
-                "Carrot",
                 "Spices"
               ],
               "fr": [
                 "Tomates",
                 "Garlic",
                 "Fresh Basil",
-                "Carrot",
                 "Spices"
               ],
               "ar": [
                 "طماطم",
                 "Garlic",
                 "Fresh Basil",
-                "Carrot",
                 "Spices"
               ]
             },
@@ -5783,54 +5647,36 @@
                 "Dana Kıyma (100gr)",
                 "Sarımsak",
                 "Soğan",
-                "Kereviz Sapı",
-                "Havuç",
-                "Defne Yaprağı",
                 "Baharat"
               ],
               "en": [
                 "Beef Mince (100gr)",
                 "Garlic",
                 "Onion",
-                "Celery Stalk",
-                "Carrot",
-                "Bay Leaf",
                 "Spices"
               ],
               "de": [
                 "Rindfleischhackfleisch (100g)",
                 "Knoblauch",
                 "Zwiebel",
-                "Selleriestiel",
-                "Karotte",
-                "Lorbeerblatt",
                 "Gewürze"
               ],
               "ru": [
                 "Говяжий фарш (100гр)",
                 "Чеснок",
                 "Лук",
-                "Сельдерей",
-                "Морковь",
-                "Лавровый лист",
                 "Специи"
               ],
               "fr": [
                 "Viande Hachée de Bœuf (100g)",
                 "Ail",
                 "Oignon",
-                "Branche de Céleri",
-                "Carotte",
-                "Feuille de Laurier",
                 "Épices"
               ],
               "ar": [
                 "لحم بقري مفروم (100غ)",
                 "ثوم",
                 "بصل",
-                "ساق الكرفس",
-                "جزر",
-                "ورقة الغار",
                 "توابل"
               ]
             },
@@ -5914,148 +5760,6 @@
             }
           },
           {
-            "id": "pa4",
-            "name": {
-              "tr": "Pesto",
-              "en": "Pesto",
-              "de": "Pesto",
-              "ru": "Песто",
-              "fr": "Pesto",
-              "ar": "بيستو"
-            },
-            "price": 200,
-            "description": {
-              "tr": "",
-              "en": "",
-              "de": "",
-              "ru": "",
-              "fr": "",
-              "ar": ""
-            },
-            "contents": {
-              "tr": [
-                "Sarımsak",
-                "Taze Fesleğen",
-                "Kekik",
-                "Krema",
-                "Baharat"
-              ],
-              "en": [
-                "Garlic",
-                "Fresh Basil",
-                "Thyme",
-                "Cream",
-                "Spices"
-              ],
-              "de": [
-                "Knoblauch",
-                "Frisches Basilikum",
-                "Thymian",
-                "Sahne",
-                "Gewürze"
-              ],
-              "ru": [
-                "Чеснок",
-                "Свежий базилик",
-                "Тимьян",
-                "Сливки",
-                "Специи"
-              ],
-              "fr": [
-                "Ail",
-                "Basilic Frais",
-                "Thym",
-                "Crème",
-                "Épices"
-              ],
-              "ar": [
-                "ثوم",
-                "ريحان طازج",
-                "زعتر",
-                "كريمة",
-                "توابل"
-              ]
-            },
-            "options": [
-              {
-                "id": "pa4_o1",
-                "label": {
-                  "tr": "Penne",
-                  "en": "Penne",
-                  "de": "Penne",
-                  "ru": "Penne",
-                  "fr": "Penne",
-                  "ar": "Penne"
-                },
-                "price": 0
-              },
-              {
-                "id": "pa4_o2",
-                "label": {
-                  "tr": "Spagetti",
-                  "en": "Spaghetti",
-                  "de": "Spaghetti",
-                  "ru": "Spaghetti",
-                  "fr": "Spaghetti",
-                  "ar": "Spaghetti"
-                },
-                "price": 0
-              },
-              {
-                "id": "pa4_o3",
-                "label": {
-                  "tr": "Fettuccine",
-                  "en": "Fettuccine",
-                  "de": "Fettuccine",
-                  "ru": "Fettuccine",
-                  "fr": "Fettuccine",
-                  "ar": "Fettuccine"
-                },
-                "price": 0
-              }
-            ],
-            "extras": {
-              "drinkOptions": [
-                {
-                  "id": "pa4_drink1",
-                  "name": {
-                    "tr": "Ayran",
-                    "en": "Ayran",
-                    "de": "Ayran",
-                    "ru": "Айран",
-                    "fr": "Ayran",
-                    "ar": "عيران"
-                  },
-                  "price": 40
-                },
-                {
-                  "id": "pa4_drink2",
-                  "name": {
-                    "tr": "Kutu İçecek",
-                    "en": "Can Drink",
-                    "de": "Dosengetränk",
-                    "ru": "Напиток в банке",
-                    "fr": "Boisson en Canette",
-                    "ar": "مشروب معلب"
-                  },
-                  "price": 60
-                },
-                {
-                  "id": "pa4_drink3",
-                  "name": {
-                    "tr": "Litrelik İçecek",
-                    "en": "Liter Drink",
-                    "de": "Litergetränk",
-                    "ru": "Литровый напиток",
-                    "fr": "Boisson d'un Litre",
-                    "ar": "مشروب لتر"
-                  },
-                  "price": 90
-                }
-              ]
-            }
-          },
-          {
             "id": "pa5",
             "name": {
               "tr": "Arabiata",
@@ -6077,37 +5781,31 @@
             "contents": {
               "tr": [
                 "Domates",
-                "Sarımsak",
                 "Acı Sos",
                 "Dilim Siyah Zeytin"
               ],
               "en": [
                 "Tomatoes",
-                "Garlic",
                 "Hot Sauce",
                 "Sliced Black Olives"
               ],
               "de": [
                 "Tomaten",
-                "Knoblauch",
                 "Scharfe Sauce",
                 "Geschnittene Schwarze Oliven"
               ],
               "ru": [
                 "Помидоры",
-                "Чеснок",
                 "Острый соус",
                 "Нарезанные черные оливки"
               ],
               "fr": [
                 "Tomates",
-                "Ail",
                 "Sauce Piquante",
                 "Olives Noires Tranchées"
               ],
               "ar": [
                 "طماطم",
-                "ثوم",
                 "صلصة حارة",
                 "زيتون أسود مقطع"
               ]
@@ -6620,9 +6318,9 @@
           "tr": "Hamburger",
           "en": "Hamburger",
           "de": "Hamburger",
-          "ru": "Hamburger",
+          "ru": "Гамбургер",
           "fr": "Hamburger",
-          "ar": "Hamburger"
+          "ar": "هامبورجر"
         },
         "products": [
           {
@@ -6631,9 +6329,9 @@
               "tr": "Hamburger",
               "en": "Hamburger",
               "de": "Hamburger",
-              "ru": "Hamburger",
+              "ru": "Гамбургер",
               "fr": "Hamburger",
-              "ar": "Hamburger"
+              "ar": "هامبورجر"
             },
             "price": 250,
             "description": {
@@ -6658,26 +6356,26 @@
                 "Tomatoes"
               ],
               "de": [
-                "120gr Homemade Patty",
-                "Lettuce",
+                "120gr Hausgemachte Frikadelle",
+                "Salat",
                 "Essiggurken",
                 "Tomaten"
               ],
               "ru": [
-                "120gr Homemade Patty",
-                "Lettuce",
+                "120гр Домашняя котлета",
+                "Салат",
                 "Маринованные огурцы",
                 "Помидоры"
               ],
               "fr": [
-                "120gr Homemade Patty",
-                "Lettuce",
+                "120gr Galette Maison",
+                "Laitue",
                 "Cornichons",
                 "Tomates"
               ],
               "ar": [
-                "120gr Homemade Patty",
-                "Lettuce",
+                "120غ كفتة منزلية",
+                "خس",
                 "مخلل",
                 "طماطم"
               ]
@@ -6688,10 +6386,10 @@
                 "label": {
                   "tr": "Sade Hamburger",
                   "en": "Plain Hamburger",
-                  "de": "Plain Hamburger",
-                  "ru": "Plain Hamburger",
-                  "fr": "Plain Hamburger",
-                  "ar": "Plain Hamburger"
+                  "de": "Einfacher Hamburger",
+                  "ru": "Обычный гамбургер",
+                  "fr": "Hamburger Simple",
+                  "ar": "هامبورجر عادي"
                 },
                 "price": 0
               },
@@ -6700,10 +6398,10 @@
                 "label": {
                   "tr": "Menü (Cips + Kola)",
                   "en": "Menu (Chips + Cola)",
-                  "de": "Menu (Chips + Cola)",
-                  "ru": "Menu (Chips + Cola)",
+                  "de": "Menü (Chips + Cola)",
+                  "ru": "Меню (Чипсы + Кола)",
                   "fr": "Menu (Chips + Cola)",
-                  "ar": "Menu (Chips + Cola)"
+                  "ar": "قائمة (رقائق + كولا)"
                 },
                 "price": 80
               }
@@ -6715,9 +6413,9 @@
               "tr": "Cheeseburger",
               "en": "Cheeseburger",
               "de": "Cheeseburger",
-              "ru": "Cheeseburger",
+              "ru": "Чизбургер",
               "fr": "Cheeseburger",
-              "ar": "Cheeseburger"
+              "ar": "تشيز برجر"
             },
             "price": 270,
             "description": {
@@ -6744,30 +6442,30 @@
                 "Tomatoes"
               ],
               "de": [
-                "120gr Homemade Patty",
-                "Cheddar Cheese",
-                "Lettuce",
+                "120gr Hausgemachte Frikadelle",
+                "Cheddar-Käse",
+                "Salat",
                 "Essiggurken",
                 "Tomaten"
               ],
               "ru": [
-                "120gr Homemade Patty",
-                "Cheddar Cheese",
-                "Lettuce",
+                "120гр Домашняя котлета",
+                "Сыр Чеддер",
+                "Салат",
                 "Маринованные огурцы",
                 "Помидоры"
               ],
               "fr": [
-                "120gr Homemade Patty",
-                "Cheddar Cheese",
-                "Lettuce",
+                "120gr Galette Maison",
+                "Fromage Cheddar",
+                "Laitue",
                 "Cornichons",
                 "Tomates"
               ],
               "ar": [
-                "120gr Homemade Patty",
-                "Cheddar Cheese",
-                "Lettuce",
+                "120غ كفتة منزلية",
+                "جبن شيدر",
+                "خس",
                 "مخلل",
                 "طماطم"
               ]
@@ -6778,10 +6476,10 @@
                 "label": {
                   "tr": "Sade Cheeseburger",
                   "en": "Plain Cheeseburger",
-                  "de": "Plain Cheeseburger",
-                  "ru": "Plain Cheeseburger",
-                  "fr": "Plain Cheeseburger",
-                  "ar": "Plain Cheeseburger"
+                  "de": "Einfacher Cheeseburger",
+                  "ru": "Обычный чизбургер",
+                  "fr": "Cheeseburger Simple",
+                  "ar": "تشيز برجر عادي"
                 },
                 "price": 0
               },
@@ -6790,10 +6488,10 @@
                 "label": {
                   "tr": "Menü (Cips + Kola)",
                   "en": "Menu (Chips + Cola)",
-                  "de": "Menu (Chips + Cola)",
-                  "ru": "Menu (Chips + Cola)",
+                  "de": "Menü (Chips + Cola)",
+                  "ru": "Меню (Чипсы + Кола)",
                   "fr": "Menu (Chips + Cola)",
-                  "ar": "Menu (Chips + Cola)"
+                  "ar": "قائمة (رقائق + كولا)"
                 },
                 "price": 80
               }
@@ -6804,10 +6502,10 @@
             "name": {
               "tr": "Tavuk Burger",
               "en": "Chicken Burger",
-              "de": "Chicken Burger",
-              "ru": "Chicken Burger",
-              "fr": "Chicken Burger",
-              "ar": "Chicken Burger"
+              "de": "Hähnchen-Burger",
+              "ru": "Куриный бургер",
+              "fr": "Burger au Poulet",
+              "ar": "برجر دجاج"
             },
             "price": 170,
             "description": {
@@ -6834,32 +6532,32 @@
                 "Special Sauce"
               ],
               "de": [
-                "Chicken Burger",
-                "Lettuce",
+                "Hähnchen-Burger",
+                "Salat",
                 "Essiggurken",
                 "Tomaten",
-                "Special Sauce"
+                "Spezielle Sauce"
               ],
               "ru": [
-                "Chicken Burger",
-                "Lettuce",
+                "Куриный бургер",
+                "Салат",
                 "Маринованные огурцы",
                 "Помидоры",
-                "Special Sauce"
+                "Специальный соус"
               ],
               "fr": [
-                "Chicken Burger",
-                "Lettuce",
+                "Burger au Poulet",
+                "Laitue",
                 "Cornichons",
                 "Tomates",
-                "Special Sauce"
+                "Sauce Spéciale"
               ],
               "ar": [
-                "Chicken Burger",
-                "Lettuce",
+                "برجر دجاج",
+                "خس",
                 "مخلل",
                 "طماطم",
-                "Special Sauce"
+                "صلصة خاصة"
               ]
             },
             "options": [
@@ -6868,10 +6566,10 @@
                 "label": {
                   "tr": "Sade Tavuk Burger",
                   "en": "Plain Chicken Burger",
-                  "de": "Plain Chicken Burger",
-                  "ru": "Plain Chicken Burger",
-                  "fr": "Plain Chicken Burger",
-                  "ar": "Plain Chicken Burger"
+                  "de": "Einfacher Hähnchen-Burger",
+                  "ru": "Обычный куриный бургер",
+                  "fr": "Burger au Poulet Simple",
+                  "ar": "برجر دجاج عادي"
                 },
                 "price": 0
               },
@@ -6880,10 +6578,10 @@
                 "label": {
                   "tr": "Menü (Cips + Kola)",
                   "en": "Menu (Chips + Cola)",
-                  "de": "Menu (Chips + Cola)",
-                  "ru": "Menu (Chips + Cola)",
+                  "de": "Menü (Chips + Cola)",
+                  "ru": "Меню (Чипсы + Кола)",
                   "fr": "Menu (Chips + Cola)",
-                  "ar": "Menu (Chips + Cola)"
+                  "ar": "قائمة (رقائق + كولا)"
                 },
                 "price": 80
               }
@@ -7001,22 +6699,40 @@
             },
             "contents": {
               "tr": [
-                "120gr Ekmek Arası Köfte"
+                "120gr Ekmek Arası Köfte",
+                "Marul",
+                "Turşu",
+                "Domates"
               ],
               "en": [
-                "120gr Meatball Sandwich"
+                "120gr Meatball Sandwich",
+                "Lettuce",
+                "Pickles",
+                "Tomatoes"
               ],
               "de": [
-                "120gr Meatball Sandwich"
+                "120gr Meatball Sandwich",
+                "Lettuce",
+                "Pickles",
+                "Tomatoes"
               ],
               "ru": [
-                "120gr Meatball Sandwich"
+                "120gr Meatball Sandwich",
+                "Lettuce",
+                "Pickles",
+                "Tomatoes"
               ],
               "fr": [
-                "120gr Meatball Sandwich"
+                "120gr Meatball Sandwich",
+                "Lettuce",
+                "Pickles",
+                "Tomatoes"
               ],
               "ar": [
-                "120gr Meatball Sandwich"
+                "120gr Meatball Sandwich",
+                "Lettuce",
+                "Pickles",
+                "Tomatoes"
               ]
             },
             "options": [
@@ -7284,6 +7000,14 @@
           "ru": "Bistro",
           "fr": "Bistro",
           "ar": "Bistro"
+        },
+        "description": {
+          "tr": "test",
+          "en": "test",
+          "de": "test",
+          "ru": "test",
+          "fr": "test",
+          "ar": "test"
         },
         "products": [
           {
@@ -7726,7 +7450,7 @@
           {
             "id": "b6",
             "name": {
-              "tr": "Dağ Kekiği Kremalı Tavuk",
+              "tr": "Dağ Kekikli Kremalı Tavuk",
               "en": "Mountain Thyme Cream Chicken",
               "de": "Bergthymian-Sahne-Hähnchen",
               "ru": "Курица с кремом и горным тимьяном",
@@ -7735,12 +7459,12 @@
             },
             "price": 300,
             "description": {
-              "tr": "",
-              "en": "",
-              "de": "",
-              "ru": "",
-              "fr": "",
-              "ar": ""
+              "tr": "Sade/Napoliten Makarna veya Pilav seçenekleri ile servis edilir.",
+              "en": "Served with Plain/Napoliten Pasta or Rice options.",
+              "de": "Wird mit Plain/Napoliten-Pasta oder Reis-Optionen serviert.",
+              "ru": "Подается с опциями Plain/Наполитен Паста или Рис.",
+              "fr": "Servi avec options Pâtes Plain/Napoliten ou Riz.",
+              "ar": "يقدم مع خيارات معكرونة عادي/نابوليتان أو أرز."
             },
             "contents": {
               "tr": [
@@ -7834,12 +7558,12 @@
             },
             "price": 300,
             "description": {
-              "tr": "",
-              "en": "",
-              "de": "",
-              "ru": "",
-              "fr": "",
-              "ar": ""
+              "tr": "Sade/Napoliten Makarna veya Pilav seçenekleri ile servis edilir.",
+              "en": "Served with Plain/Napoliten Pasta or Rice options.",
+              "de": "Wird mit Plain/Napoliten-Pasta oder Reis-Optionen serviert.",
+              "ru": "Подается с опциями Plain/Наполитен Паста или Рис.",
+              "fr": "Servi avec options Pâtes Plain/Napoliten ou Riz.",
+              "ar": "يقدم مع خيارات معكرونة عادي/نابوليتان أو أرز."
             },
             "contents": {
               "tr": [
@@ -7915,12 +7639,12 @@
             },
             "price": 300,
             "description": {
-              "tr": "",
-              "en": "",
-              "de": "",
-              "ru": "",
-              "fr": "",
-              "ar": ""
+              "tr": "Sade/Napoliten Makarna veya Pilav seçenekleri ile servis edilir.",
+              "en": "Served with Plain/Napoliten Pasta or Rice options.",
+              "de": "Wird mit Plain/Napoliten-Pasta oder Reis-Optionen serviert.",
+              "ru": "Подается с опциями Plain/Наполитен Паста или Рис.",
+              "fr": "Servi avec options Pâtes Plain/Napoliten ou Riz.",
+              "ar": "يقدم مع خيارات معكرونة عادي/نابوليتان أو أرز."
             },
             "contents": {
               "tr": [
@@ -8003,93 +7727,6 @@
             }
           },
           {
-            "id": "b9",
-            "name": {
-              "tr": "Barbekü Soslu Tavuk",
-              "en": "BBQ Sauce Chicken",
-              "de": "Hähnchen mit BBQ-Sauce",
-              "ru": "Курица с соусом барбекю",
-              "fr": "Poulet Sauce BBQ",
-              "ar": "دجاج بصلصة باربيكيو"
-            },
-            "price": 300,
-            "description": {
-              "tr": "",
-              "en": "",
-              "de": "",
-              "ru": "",
-              "fr": "",
-              "ar": ""
-            },
-            "contents": {
-              "tr": [
-                "Jülyen Tavuk (200gr)",
-                "Barbekü Sosu",
-                "Biber",
-                "Mantar",
-                "Dağ Kekiği",
-                "Akdeniz Yeşillikleri"
-              ],
-              "en": [
-                "Julienne Chicken (200gr)",
-                "BBQ Sauce",
-                "Pepper",
-                "Mushrooms",
-                "Mountain Thyme",
-                "Mediterranean Greens"
-              ],
-              "de": [
-                "Julienne-Hähnchen (200g)",
-                "BBQ-Sauce",
-                "Paprika",
-                "Pilze",
-                "Bergthymian",
-                "Mittelmeergrün"
-              ],
-              "ru": [
-                "Жюльен курица (200гр)",
-                "соус барбекю",
-                "перец",
-                "грибы",
-                "горный тимьян",
-                "средиземноморская зелень"
-              ],
-              "fr": [
-                "Poulet Julienne (200g)",
-                "Sauce BBQ",
-                "Poivron",
-                "Champignons",
-                "Thym des Montagnes",
-                "Verts Méditerranéens"
-              ],
-              "ar": [
-                "دجاج جوليان (200غ)",
-                "صلصة باربيكيو",
-                "فلفل",
-                "فطر",
-                "زعتر جبلي",
-                "خضار البحر المتوسط"
-              ]
-            },
-            "options": [],
-            "extras": {
-              "drinkOptions": [
-                {
-                  "id": "b9_drink1",
-                  "name": {
-                    "tr": "Kutu İçecek",
-                    "en": "Can Drink",
-                    "de": "Dosengetränk",
-                    "ru": "Напиток в банке",
-                    "fr": "Boisson en Canette",
-                    "ar": "مشروب معلب"
-                  },
-                  "price": 60
-                }
-              ]
-            }
-          },
-          {
             "id": "b10",
             "name": {
               "tr": "Tatlı Acı Soslu Tavuk",
@@ -8101,12 +7738,12 @@
             },
             "price": 300,
             "description": {
-              "tr": "",
-              "en": "",
-              "de": "",
-              "ru": "",
-              "fr": "",
-              "ar": ""
+              "tr": "Sade/Napoliten Makarna veya Pilav seçenekleri ile servis edilir.",
+              "en": "Served with Plain/Napoliten Pasta or Rice options.",
+              "de": "Wird mit Plain/Napoliten-Pasta oder Reis-Optionen serviert.",
+              "ru": "Подается с опциями Plain/Наполитен Паста или Рис.",
+              "fr": "Servi avec options Pâtes Plain/Napoliten ou Riz.",
+              "ar": "يقدم مع خيارات معكرونة عادي/نابوليتان أو أرز."
             },
             "contents": {
               "tr": [
@@ -8182,12 +7819,12 @@
             },
             "price": 300,
             "description": {
-              "tr": "",
-              "en": "",
-              "de": "",
-              "ru": "",
-              "fr": "",
-              "ar": ""
+              "tr": "Sade/Napoliten Makarna veya Pilav seçenekleri ile servis edilir.",
+              "en": "Served with Plain/Napoliten Pasta or Rice options.",
+              "de": "Wird mit Plain/Napoliten-Pasta oder Reis-Optionen serviert.",
+              "ru": "Подается с опциями Plain/Наполитен Паста или Рис.",
+              "fr": "Servi avec options Pâtes Plain/Napoliten ou Riz.",
+              "ar": "يقدم مع خيارات معكرونة عادي/نابوليتان أو أرز."
             },
             "contents": {
               "tr": [
@@ -8269,12 +7906,12 @@
             },
             "price": 300,
             "description": {
-              "tr": "",
-              "en": "",
-              "de": "",
-              "ru": "",
-              "fr": "",
-              "ar": ""
+              "tr": "Sade/Napoliten Makarna veya Pilav seçenekleri ile servis edilir.",
+              "en": "Served with Plain/Napoliten Pasta or Rice options.",
+              "de": "Wird mit Plain/Napoliten-Pasta oder Reis-Optionen serviert.",
+              "ru": "Подается с опциями Plain/Наполитен Паста или Рис.",
+              "fr": "Servi avec options Pâtes Plain/Napoliten ou Riz.",
+              "ar": "يقدم مع خيارات معكرونة عادي/نابوليتان أو أرز."
             },
             "contents": {
               "tr": [
@@ -8848,47 +8485,6 @@
         },
         "products": [
           {
-            "id": "d1",
-            "name": {
-              "tr": "RedBull",
-              "en": "RedBull",
-              "de": "RedBull",
-              "ru": "RedBull",
-              "fr": "RedBull",
-              "ar": "RedBull"
-            },
-            "price": 80,
-            "description": {
-              "tr": "RedBull Enerji İçeceği",
-              "en": "RedBull Energy Drink",
-              "de": "RedBull Energy Drink",
-              "ru": "RedBull Energy Drink",
-              "fr": "RedBull Energy Drink",
-              "ar": "RedBull Energy Drink"
-            },
-            "contents": {
-              "tr": [
-                "RedBull Enerji İçeceği"
-              ],
-              "en": [
-                "RedBull Energy Drink"
-              ],
-              "de": [
-                "RedBull Energy Drink"
-              ],
-              "ru": [
-                "RedBull Energy Drink"
-              ],
-              "fr": [
-                "RedBull Energy Drink"
-              ],
-              "ar": [
-                "RedBull Energy Drink"
-              ]
-            },
-            "options": []
-          },
-          {
             "id": "d2",
             "name": {
               "tr": "Coca Cola",
@@ -8900,31 +8496,31 @@
             },
             "price": 60,
             "description": {
-              "tr": "Coca Cola",
-              "en": "Coca Cola",
-              "de": "Coca Cola",
-              "ru": "Coca Cola",
-              "fr": "Coca Cola",
-              "ar": "Coca Cola"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
-                "Coca Cola"
+                "Coca Cola/Zero"
               ],
               "en": [
-                "Coca Cola"
+                "Coca Cola/Zero"
               ],
               "de": [
-                "Coca Cola"
+                "Coca Cola/Zero"
               ],
               "ru": [
-                "Coca Cola"
+                "Coca Cola/Zero"
               ],
               "fr": [
-                "Coca Cola"
+                "Coca Cola/Zero"
               ],
               "ar": [
-                "Coca Cola"
+                "Coca Cola/Zero"
               ]
             },
             "options": [
@@ -8966,31 +8562,31 @@
             },
             "price": 60,
             "description": {
-              "tr": "Pepsi",
-              "en": "Pepsi",
-              "de": "Pepsi",
-              "ru": "Pepsi",
-              "fr": "Pepsi",
-              "ar": "Pepsi"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
-                "Pepsi"
+                "Pepsi/Max"
               ],
               "en": [
-                "Pepsi"
+                "Pepsi/Max"
               ],
               "de": [
-                "Pepsi"
+                "Pepsi/Max"
               ],
               "ru": [
-                "Pepsi"
+                "Pepsi/Max"
               ],
               "fr": [
-                "Pepsi"
+                "Pepsi/Max"
               ],
               "ar": [
-                "Pepsi"
+                "Pepsi/Max"
               ]
             },
             "options": [
@@ -9032,12 +8628,12 @@
             },
             "price": 60,
             "description": {
-              "tr": "Fanta",
-              "en": "Fanta",
-              "de": "Fanta",
-              "ru": "Fanta",
-              "fr": "Fanta",
-              "ar": "Fanta"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -9073,12 +8669,12 @@
             },
             "price": 60,
             "description": {
-              "tr": "Sprite",
-              "en": "Sprite",
-              "de": "Sprite",
-              "ru": "Sprite",
-              "fr": "Sprite",
-              "ar": "Sprite"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -9139,31 +8735,31 @@
             },
             "price": 60,
             "description": {
-              "tr": "Ice Tea",
-              "en": "Ice Tea",
-              "de": "Ice Tea",
-              "ru": "Ice Tea",
-              "fr": "Ice Tea",
-              "ar": "Ice Tea"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
-                "Ice Tea"
+                "Limon/Şeftali/Karpuz/Mango"
               ],
               "en": [
-                "Ice Tea"
+                "Lemon/Peach/Watermelon/Mango"
               ],
               "de": [
-                "Ice Tea"
+                "Zitrone/Pfirsich/Wassermelone/Mango"
               ],
               "ru": [
-                "Ice Tea"
+                "Лимон/Персик/Арбуз/Манго"
               ],
               "fr": [
-                "Ice Tea"
+                "Citron/Pêche/Pastèque/Mangue"
               ],
               "ar": [
-                "Ice Tea"
+                "ليمون/خوخ/بطيخ/مانجو"
               ]
             },
             "options": [
@@ -9190,6 +8786,30 @@
                   "ar": "Lemon"
                 },
                 "price": 0
+              },
+              {
+                "id": "d6_o3",
+                "label": {
+                  "tr": "Mango",
+                  "en": "Mango",
+                  "de": "Mango",
+                  "ru": "Манго",
+                  "fr": "Mangue",
+                  "ar": "مانجو"
+                },
+                "price": 0
+              },
+              {
+                "id": "d6_o4",
+                "label": {
+                  "tr": "Karpuz Çilek",
+                  "en": "Watermelon Strawberry",
+                  "de": "Wassermelone Erdbeere",
+                  "ru": "Арбуз Клубника",
+                  "fr": "Pastèque Fraise",
+                  "ar": "بطيخ فراولة"
+                },
+                "price": 0
               }
             ]
           },
@@ -9203,14 +8823,14 @@
               "fr": "Boisson d'un Litre",
               "ar": "مشروب لتر"
             },
-            "price": 60,
+            "price": 90,
             "description": {
-              "tr": "Litrelik İçecek",
-              "en": "Liter Drink",
-              "de": "Litergetränk",
-              "ru": "Литровый напиток",
-              "fr": "Boisson d'un Litre",
-              "ar": "مشروب لتر"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -9274,40 +8894,40 @@
           {
             "id": "d8",
             "name": {
-              "tr": "Yörükoğlu Ayran",
-              "en": "Yörükoğlu Ayran",
-              "de": "Yörükoğlu Ayran",
-              "ru": "Yörükoğlu Ayran",
-              "fr": "Yörükoğlu Ayran",
-              "ar": "Yörükoğlu Ayran"
+              "tr": "Sütaş Ayran",
+              "en": "Sütaş Ayran",
+              "de": "Sütaş Ayran",
+              "ru": "Sütaş Ayran",
+              "fr": "Sütaş Ayran",
+              "ar": "Sütaş Ayran"
             },
             "price": 40,
             "description": {
-              "tr": "Yörükoğlu Ayran",
-              "en": "Yörükoğlu Ayran",
-              "de": "Yörükoğlu Ayran",
-              "ru": "Yörükoğlu Ayran",
-              "fr": "Yörükoğlu Ayran",
-              "ar": "Yörükoğlu Ayran"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
-                "Yörükoğlu Ayran"
+                "Sütaş Ayran"
               ],
               "en": [
-                "Yörükoğlu Ayran"
+                "Sütaş Ayran"
               ],
               "de": [
-                "Yörükoğlu Ayran"
+                "Sütaş Ayran"
               ],
               "ru": [
-                "Yörükoğlu Ayran"
+                "Sütaş Ayran"
               ],
               "fr": [
-                "Yörükoğlu Ayran"
+                "Sütaş Ayran"
               ],
               "ar": [
-                "Yörükoğlu Ayran"
+                "Sütaş Ayran"
               ]
             },
             "options": []
@@ -9324,12 +8944,12 @@
             },
             "price": 20,
             "description": {
-              "tr": "Su",
-              "en": "Water",
-              "de": "Water",
-              "ru": "Water",
-              "fr": "Water",
-              "ar": "Water"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -9365,12 +8985,12 @@
             },
             "price": 20,
             "description": {
-              "tr": "Soda",
-              "en": "Soda",
-              "de": "Soda",
-              "ru": "Soda",
-              "fr": "Soda",
-              "ar": "Soda"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -9406,31 +9026,31 @@
             },
             "price": 40,
             "description": {
-              "tr": "Şalgam",
-              "en": "Turnip Juice",
-              "de": "Turnip Juice",
-              "ru": "Turnip Juice",
-              "fr": "Turnip Juice",
-              "ar": "Turnip Juice"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
-                "Şalgam"
+                "Acılı/Acısız"
               ],
               "en": [
-                "Turnip Juice"
+                "Spicy/Non-Spicy"
               ],
               "de": [
-                "Turnip Juice"
+                "Scharf/Mild"
               ],
               "ru": [
-                "Turnip Juice"
+                "Острый/Неострый"
               ],
               "fr": [
-                "Turnip Juice"
+                "Épicé/Non Épicé"
               ],
               "ar": [
-                "Turnip Juice"
+                "حار/غير حار"
               ]
             },
             "options": [
@@ -9472,12 +9092,12 @@
             },
             "price": 20,
             "description": {
-              "tr": "Çay",
-              "en": "Tea",
-              "de": "Tea",
-              "ru": "Tea",
-              "fr": "Tea",
-              "ar": "Tea"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -9511,14 +9131,14 @@
               "fr": "Turkish Coffee",
               "ar": "Turkish Coffee"
             },
-            "price": 30,
+            "price": 70,
             "description": {
-              "tr": "Türk Kahvesi",
-              "en": "Turkish Coffee",
-              "de": "Turkish Coffee",
-              "ru": "Turkish Coffee",
-              "fr": "Turkish Coffee",
-              "ar": "Turkish Coffee"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [

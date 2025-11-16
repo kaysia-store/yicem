@@ -2540,6 +2540,88 @@
               "./pic/Ayvalik-Tostu/sanayi-tostu.jpg"
             ],
             "image": "./pic/Ayvalik-Tostu/sanayi-tostu.jpg"
+          },
+          {
+            "id": "t14",
+            "name": {
+              "tr": "Yicem Kaşar veya Beyaz Peynir",
+              "en": "Yicem Cheddar or White Cheese",
+              "de": "Yicem Cheddar oder Weißkäse",
+              "ru": "Йицем Чеддер или Белый Сыр",
+              "fr": "Yicem Cheddar ou Fromage Blanc",
+              "ar": "يجم شيدر أو جبن أبيض"
+            },
+            "price": 100,
+            "description": {
+              "tr": "Kaşar veya Beyaz Peynir, Turşu, Domates",
+              "en": "Cheddar or White Cheese, Pickles, Tomatoes",
+              "de": "Cheddar oder Weißkäse, Essiggurken, Tomaten",
+              "ru": "Чеддер или Белый Сыр, Маринованные огурцы, Помидоры",
+              "fr": "Cheddar ou Fromage Blanc, Cornichons, Tomates",
+              "ar": "شيدر أو جبن أبيض، مخلل، طماطم"
+            },
+            "contents": {
+              "tr": [
+                "Kaşar veya Beyaz Peynir",
+                "Turşu",
+                "Domates"
+              ],
+              "en": [
+                "Cheddar or White Cheese",
+                "Pickles",
+                "Tomatoes"
+              ],
+              "de": [
+                "Cheddar oder Weißkäse",
+                "Essiggurken",
+                "Tomaten"
+              ],
+              "ru": [
+                "Чеддер или Белый Сыр",
+                "Маринованные огурцы",
+                "Помидоры"
+              ],
+              "fr": [
+                "Cheddar ou Fromage Blanc",
+                "Cornichons",
+                "Tomates"
+              ],
+              "ar": [
+                "شيدر أو جبن أبيض",
+                "مخلل",
+                "طماطم"
+              ]
+            },
+            "options": [
+              {
+                "id": "t14_o1",
+                "label": {
+                  "tr": "Sade Tost",
+                  "en": "Plain Toast",
+                  "de": "Einfacher Toast",
+                  "ru": "Обычный тост",
+                  "fr": "Toast Simple",
+                  "ar": "خبز محمص عادي"
+                },
+                "price": 0
+              },
+              {
+                "id": "t14_o2",
+                "label": {
+                  "tr": "Menü (Cips + İçecek)",
+                  "en": "Menu (Chips + Drink)",
+                  "de": "Menü (Chips + Getränk)",
+                  "ru": "Меню (Чипсы + Напиток)",
+                  "fr": "Menu (Chips + Boisson)",
+                  "ar": "قائمة (رقائق + مشروب)"
+                },
+                "price": 80
+              }
+            ],
+            "gallery": [
+              "./pic/Pizzalar/ıspanak-tulum-yicem.jpg"
+            ],
+            "image": "./pic/Pizzalar/ıspanak-tulum-yicem.jpg"
           }
         ]
       },
@@ -2582,40 +2664,35 @@
                   "name": {
                     "tr": "Ton Balığı",
                     "en": "Tuna Fish"
-                  },
-                  "price": 40
+                  }
                 },
                 {
                   "id": "main2",
                   "name": {
                     "tr": "Beyaz Peynir",
                     "en": "White Cheese"
-                  },
-                  "price": 40
+                  }
                 },
                 {
                   "id": "main3",
                   "name": {
                     "tr": "Ezine",
                     "en": "Ezine Cheese"
-                  },
-                  "price": 40
+                  }
                 },
                 {
                   "id": "main4",
                   "name": {
                     "tr": "Salam",
                     "en": "Salami"
-                  },
-                  "price": 40
+                  }
                 },
                 {
                   "id": "main5",
                   "name": {
                     "tr": "Jambon",
                     "en": "Ham"
-                  },
-                  "price": 40
+                  }
                 }
               ],
               "sideProducts": [
@@ -2624,56 +2701,49 @@
                   "name": {
                     "tr": "Siyah Zeytin",
                     "en": "Black Olives"
-                  },
-                  "price": 20
+                  }
                 },
                 {
                   "id": "side2",
                   "name": {
                     "tr": "Mısır",
                     "en": "Corn"
-                  },
-                  "price": 20
+                  }
                 },
                 {
                   "id": "side3",
                   "name": {
                     "tr": "Domates",
                     "en": "Tomatoes"
-                  },
-                  "price": 20
+                  }
                 },
                 {
                   "id": "side4",
                   "name": {
                     "tr": "Turşu",
                     "en": "Pickles"
-                  },
-                  "price": 20
+                  }
                 },
                 {
                   "id": "side5",
                   "name": {
                     "tr": "Jalepeno Biber",
                     "en": "Jalapeño Pepper"
-                  },
-                  "price": 20
+                  }
                 },
                 {
                   "id": "side6",
                   "name": {
                     "tr": "Yeşil Biber",
                     "en": "Green Pepper"
-                  },
-                  "price": 20
+                  }
                 },
                 {
                   "id": "side7",
                   "name": {
                     "tr": "Rus Salatası",
                     "en": "Russian Salad"
-                  },
-                  "price": 20
+                  }
                 }
               ]
             },
@@ -2835,14 +2905,13 @@
             },
             "price": 230,
             "description": {
-              "tr": "Tavuk Döner Beyti (100gr) - İskender tarzı",
-              "en": "Chicken Doner Beyti (100gr) - Iskender style"
+              "tr": "",
+              "en": ""
             },
             "contents": {
               "tr": [
                 "Tavuk Döner (100gr)",
                 "Yoğurt",
-                "Tereyağı",
                 "Domates Sosu",
                 "Marul",
                 "Domates",
@@ -2851,7 +2920,6 @@
               "en": [
                 "Chicken Doner (100gr)",
                 "Yogurt",
-                "Butter",
                 "Tomato Sauce",
                 "Lettuce",
                 "Tomatoes",
@@ -2890,8 +2958,8 @@
             },
             "price": 250,
             "description": {
-              "tr": "Tavuk Döner Beyti (100gr) - Özel sos ile",
-              "en": "Chicken Doner Beyti (100gr) - With special sauce"
+              "tr": "",
+              "en": ""
             },
             "contents": {
               "tr": [
@@ -2942,22 +3010,18 @@
             },
             "price": 180,
             "description": {
-              "tr": "Tavuk Döner Porsiyon (100gr) - Porsiyon tabağı",
-              "en": "Chicken Doner Portion (100gr) - Portion plate"
+              "tr": "",
+              "en": ""
             },
             "contents": {
               "tr": [
                 "Tavuk Döner (100gr)",
-                "Pilav",
-                "Salata",
                 "Marul",
                 "Domates",
                 "Turşu"
               ],
               "en": [
                 "Chicken Doner (100gr)",
-                "Rice",
-                "Salad",
                 "Lettuce",
                 "Tomatoes",
                 "Pickles"
@@ -2995,15 +3059,13 @@
             },
             "price": 230,
             "description": {
-              "tr": "Pilavüstü Tavuk Döner (100gr) - Pilav üzerine",
-              "en": "Chicken Doner on Rice (100gr) - Over rice"
+              "tr": "",
+              "en": ""
             },
             "contents": {
               "tr": [
                 "Tavuk Döner (100gr)",
                 "Pilav",
-                "Salata",
-                "Sos",
                 "Marul",
                 "Domates",
                 "Turşu"
@@ -3011,8 +3073,6 @@
               "en": [
                 "Chicken Doner (100gr)",
                 "Rice",
-                "Salad",
-                "Sauce",
                 "Lettuce",
                 "Tomatoes",
                 "Pickles"
@@ -3412,22 +3472,20 @@
             },
             "price": 200,
             "description": {
-              "tr": "Domates, Sarımsak, Taze Fesleğen, Havuç, Baharat - Tavsiye Spagetti",
-              "en": "Tomatoes, Garlic, Fresh Basil, Carrot, Spices - Recommended Spaghetti"
+              "tr": "Domates, Sarımsak, Taze Fesleğen, Baharat - Tavsiye Spagetti",
+              "en": "Tomatoes, Garlic, Fresh Basil, Spices - Recommended Spaghetti"
             },
             "contents": {
               "tr": [
                 "Domates",
                 "Sarımsak",
                 "Taze Fesleğen",
-                "Havuç",
                 "Baharat"
               ],
               "en": [
                 "Tomatoes",
                 "Garlic",
                 "Fresh Basil",
-                "Carrot",
                 "Spices"
               ]
             },
@@ -3850,10 +3908,16 @@
             },
             "contents": {
               "tr": [
-                "120gr Ekmek Arası Köfte"
+                "120gr Ekmek Arası Köfte",
+                "Marul",
+                "Turşu",
+                "Domates"
               ],
               "en": [
-                "120gr Meatball Sandwich"
+                "120gr Meatball Sandwich",
+                "Lettuce",
+                "Pickles",
+                "Tomatoes"
               ]
             },
             "options": [
@@ -3892,10 +3956,16 @@
             },
             "contents": {
               "tr": [
-                "120gr Ekmek Arası Kaşarlı Köfte"
+                "120gr Ekmek Arası Kaşarlı Köfte",
+                "Marul",
+                "Turşu",
+                "Domates"
               ],
               "en": [
-                "120gr Cheddar Meatball Sandwich"
+                "120gr Cheddar Meatball Sandwich",
+                "Lettuce",
+                "Pickles",
+                "Tomatoes"
               ]
             },
             "options": [

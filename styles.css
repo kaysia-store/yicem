@@ -871,6 +871,43 @@ body {
     border: 2px solid var(--color-border);
 }
 
+/* Bistro Modal */
+.bistro-modal-content {
+    max-width: 600px;
+    width: 95%;
+}
+
+.bistro-modal-body {
+    padding: var(--spacing-md) 0;
+}
+
+.bistro-product-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 var(--spacing-lg) 0;
+}
+
+.bistro-product-list li {
+    padding: var(--spacing-sm) 0;
+    color: var(--color-text);
+    font-size: var(--font-size-lg);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.bistro-product-list li:last-child {
+    border-bottom: none;
+}
+
+.bistro-description {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-base);
+    line-height: 1.6;
+    margin: 0;
+    padding: var(--spacing-md);
+    background: var(--color-bg-secondary);
+    border-radius: var(--border-radius);
+}
+
 .product-modal-body {
     display: flex;
     flex-direction: column;

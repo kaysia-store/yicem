@@ -108,7 +108,7 @@ b2       | ./pic/Tavuk-Doner/tavuk-doner-beyti.jpg            | Tavuk Quesadilla
 b3       | (Belirtilmemiş)                                    | Kaşarlı Mantarlı Quesadilla         | ₺300
 b4       | ./pic/Bistro/viyana.jpg                            | Viyana Piliç Şinitzel               | ₺300
 b5       | ./pic/Tavuk-Doner/tavuk-doner-beyti.jpg            | Tavuk Wrap                          | ₺300
-b6       | (Belirtilmemiş)                                    | Dağ Kekiği Kremalı Tavuk            | ₺300
+b6       | (Belirtilmemiş)                                    | Dağ Kekikli Kremalı Tavuk           | ₺300
 b7       | (Belirtilmemiş)                                    | Mantarlı Köri Soslu Tavuk           | ₺300
 b8       | (Belirtilmemiş)                                    | Cafe de Paris Soslu Tavuk           | ₺300
 b9       | (Belirtilmemiş)                                    | Barbekü Soslu Tavuk                 | ₺300
