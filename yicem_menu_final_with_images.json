@@ -4616,7 +4616,7 @@
               "tr": "Litrelik İçecek",
               "en": "Liter Drink"
             },
-            "price": 60,
+            "price": 90,
             "description": {
               "tr": "Litrelik İçecek",
               "en": "Liter Drink"
@@ -4663,20 +4663,20 @@
           {
             "id": "d8",
             "name": {
-              "tr": "Yörükoğlu Ayran",
-              "en": "Yörükoğlu Ayran"
+              "tr": "Ayran",
+              "en": "Ayran"
             },
             "price": 40,
             "description": {
-              "tr": "Yörükoğlu Ayran",
-              "en": "Yörükoğlu Ayran"
+              "tr": "Ayran",
+              "en": "Ayran"
             },
             "contents": {
               "tr": [
-                "Yörükoğlu Ayran"
+                "Ayran"
               ],
               "en": [
-                "Yörükoğlu Ayran"
+                "Ayran"
               ]
             },
             "options": [],
@@ -4808,7 +4808,7 @@
               "tr": "Türk Kahvesi",
               "en": "Turkish Coffee"
             },
-            "price": 30,
+            "price": 70,
             "description": {
               "tr": "Türk Kahvesi",
               "en": "Turkish Coffee"

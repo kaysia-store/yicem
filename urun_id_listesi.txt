@@ -134,13 +134,13 @@ d3       | ./pic/Icecek/pepsi.jpg                             | Pepsi           
 d4       | ./pic/Icecek/fanta.jpg                             | Fanta                               | ₺60
 d5       | ./pic/Icecek/sprite.jpg                            | Sprite                              | ₺60
 d6       | ./pic/Icecek/icetea.jpg                            | Ice Tea                             | ₺60
-d7       | ./pic/Icecek/litrelikicecek.jpg                    | Litrelik İçecek                     | ₺60
-d8       | ./pic/Icecek/ayran.jpg                             | Yörükoğlu Ayran                     | ₺40
+d7       | ./pic/Icecek/litrelikicecek.jpg                    | Litrelik İçecek                     | ₺90
+d8       | ./pic/Icecek/ayran.jpg                             | Ayran                     | ₺40
 d9       | ./pic/Icecek/su.jpg                                | Su                                  | ₺20
 d10      | ./pic/Icecek/soda.jpg                              | Soda                                | ₺20
 d11      | ./pic/Icecek/salgam.jpg                            | Şalgam                              | ₺40
 d12      | ./pic/Icecek/cay.jpg                               | Çay                                 | ₺20
-d13      | ./pic/Icecek/turk-kahvesi.jpg                      | Türk Kahvesi                        | ₺30
+d13      | ./pic/Icecek/turk-kahvesi.jpg                      | Türk Kahvesi                        | ₺70
 
 
 ---
